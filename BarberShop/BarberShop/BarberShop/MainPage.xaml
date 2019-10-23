@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BarberShop"
+             x:Class="BarberShop.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="ROYAL BARBERSHOP" 
+               TextColor="Goldenrod"
+               FontAttributes="Bold"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        
+            <Label Text="Ingresa la cantidad"
+               HorizontalOptions="Center"
+                   VerticalOptions="Center"
+               FontSize="Medium"/>
+
+        <Label Text="Cortes:"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               FontAttributes="Bold"
+               FontSize="Medium"/>
+        
+        <Entry Placeholder="" 
+               x:Name="txt1"
+               Keyboard="Numeric"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="Fill"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Medium"/>
+        
+        <Label Text="Ceja:"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               FontAttributes="Bold"
+               FontSize="Medium"/>
+        
+        <Entry Placeholder=""
+               x:Name="txt2"
+               Keyboard="Numeric"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="Fill"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Medium"/>
+        
+        <Label Text="Barba:"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               FontSize="Medium"
+               FontAttributes="Bold"/>
+        
+        <Entry Placeholder=""
+               x:Name="txt3"
+               Keyboard="Numeric"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="Fill"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Medium"/>
+        
+        <Label Text="Mascarilla:" 
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               FontSize="Medium"
+               FontAttributes="Bold"/>
+        
+        <Entry Placeholder="" 
+               x:Name="txt4"
+               Keyboard="Numeric"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="Fill"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Medium"/>
+        
+        <Button x:Name="b1"
+                Text="CALCULAR" Clicked="B1_Clicked"
+                FontSize="Medium"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+        
+        <Label Text="Total:"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               FontAttributes="Bold"
+               FontSize="Medium"/>
+        
+        <Entry Placeholder=""
+               x:Name="txtTotal"
+               HorizontalOptions="Fill"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="CenterAndExpand"/>
+
+        
+
+        </StackLayout>
+
+</ContentPage>
